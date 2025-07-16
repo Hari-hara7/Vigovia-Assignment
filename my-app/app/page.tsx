@@ -4,6 +4,7 @@ import Home from './home/page';
 import Notes from './notes/page';
 import Second from './second/page';
 import Fourth from './fourth/page';
+import Fivth from './fivth/page';
 
 export default function MainPage() {
   return (
@@ -12,6 +13,7 @@ export default function MainPage() {
       <Second/>
       <Notes />
       <Fourth />
+      <Fivth />
     </main>
   );
 }

@@ -50,6 +50,17 @@ const itinerary = [
       Evening: ['Return to hotel and rest.'],
     },
   },
+  {
+    day: 'Day 4',
+    date: '27th November',
+    title: ' Arrival In Singapore & City Exploration',
+    image: '/image1.jpg',
+    activities: {
+      Morning: ['Arrive in Singapore. Transfer From Airport To Hotel.'],
+      Afternoon: ['Check Into Your Hotel.'],
+      Evening: ['Explore Gardens By The Bay, Including Super Tree Grove (3-4) Hours'],
+    },
+  },
 ];
 
 export default function Home() {

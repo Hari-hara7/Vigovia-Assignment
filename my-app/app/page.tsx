@@ -3,6 +3,7 @@
 import Home from './home/page';
 import Notes from './notes/page';
 import Second from './second/page';
+import Fourth from './fourth/page';
 
 export default function MainPage() {
   return (
@@ -10,6 +11,7 @@ export default function MainPage() {
       <Home />
       <Second/>
       <Notes />
+      <Fourth />
     </main>
   );
 }

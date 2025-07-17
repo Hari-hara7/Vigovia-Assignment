@@ -14,7 +14,7 @@ This beautiful travel summary UI was built using:
 - ⚙️ **Next.js** — React framework for SSR/SSG
 - 🟦 **TypeScript** — For type safety and scalability
 - 🎨 **Tailwind CSS** — For utility-first responsive styling
-- 🧩 **ShadCN UI** — Prebuilt, accessible UI components based on Radix UI
+
 
 ---
 

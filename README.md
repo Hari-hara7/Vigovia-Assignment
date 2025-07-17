@@ -1,40 +1,39 @@
-# 🌍 Vigovia Travel Assignment
+# 🎨 Vigovia Travel - UI/UX + Fullstack Internship Task
 
-This is a travel itinerary summary project built as part of the **Vigovia Internship Assignment (UI/UX Fullstack Round 2)**. The design was translated from Figma into responsive frontend code using modern web technologies.
+> ✅ **This project is a direct implementation of the official Figma design provided for the Vigovia Internship (UI/UX + Fullstack Round 2).**
 
-> 🚧 **Note:** This view is optimized for desktop only and is **not fully responsive** on smaller screens (mobile/tablet). Make sure to test it on a full-width screen for the intended experience.
-
----
-
-## ✨ Features
-
-- 🏨 Hotel details table (City, Check-in/Check-out, Nights, Hotel name)
-- 📦 Inclusion summary with categorized entries
-- 📋 Detailed tables with modern UI styling (based on Figma)
-- 💅 Visually polished using Tailwind CSS and ShadCN UI elements
-- 📁 Organized, scalable component structure
+## 🔗 Figma Design Link  
+[👉 View Figma Design](https://www.figma.com/design/Nut2Vgxzc8HaD2pCiisWED/Round-2---Fullstack--UIUX----Task-Phase?m=auto&t=aKxRZSztHfYzCGLa-6)
 
 ---
 
-## 🧑‍🎓 Internship Assignment Details
+## 🛠️ Built With
 
-- **Organization**: Vigovia
-- **Internship Type**: UI/UX + Fullstack (Round 2)
-- **Design Source**: Figma
+This beautiful travel summary UI was built using:
 
-📌 **Figma Design Link**:  
-[![Figma Link](https://img.shields.io/badge/Open%20Figma-Design-blue?logo=figma)](https://www.figma.com/design/Nut2Vgxzc8HaD2pCiisWED/Round-2---Fullstack--UIUX----Task-Phase?m=auto&t=aKxRZSztHfYzCGLa-6)
+- ⚙️ **Next.js** — React framework for SSR/SSG
+- 🟦 **TypeScript** — For type safety and scalability
+- 🎨 **Tailwind CSS** — For utility-first responsive styling
+- 🧩 **ShadCN UI** — Prebuilt, accessible UI components based on Radix UI
 
 ---
 
-## 🛠️ Tech Stack
+## 🌍 Project Overview
 
-| Tool         | Description                        |
-|--------------|------------------------------------|
-| **Next.js**  | React-based framework for SSR/SSG  |
-| **TypeScript** | Strongly-typed language extension for JavaScript |
-| **Tailwind CSS** | Utility-first CSS framework     |
-| **ShadCN UI**  | UI components built on Radix UI and Tailwind |
+This is a **Travel Itinerary UI** assignment for Vigovia. It includes:
+
+- 🏨 Hotel listings (city, check-in, check-out, nights, hotel name)
+- ✅ Highlights and inclusions displayed in clean modern tables
+- 💎 Structured visual separation of points and details
+- 🧾 Enhanced readability with rounded UI elements and spacing
+- 🎯 Clean layout **replicating the Figma design** precisely
+
+---
+
+## 🚧 Responsiveness Notice
+
+> ⚠️ **Important:** This UI is **optimized for desktop only**.  
+> Mobile/tablet responsiveness is not implemented yet.
 
 ---
 

@@ -26,13 +26,13 @@ export default function FourthPage() {
     <div className="min-h-screen bg-white p-6 font-sans">
       <div className="max-w-4xl mx-auto space-y-10">
 
-        {/* Payment Plan Section */}
+    
         <div>
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Payment <span className="text-purple-600">Plan</span>
           </h2>
 
-          {/* Total Amount and TCS */}
+         
           <div className="space-y-3 mb-6">
             {[
               {
@@ -73,7 +73,7 @@ export default function FourthPage() {
             ))}
           </div>
 
-          {/* Payment Installments Table */}
+          
           <div className="flex flex-col md:flex-row justify-center gap-6 px-1">
             {[
               { header: 'Installment', key: 'installment', width: '25%' },
@@ -104,7 +104,7 @@ export default function FourthPage() {
           </div>
         </div>
 
-        {/* Visa Details Section */}
+       
         <div>
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Visa <span className="text-purple-600">Details</span>
@@ -141,17 +141,17 @@ export default function FourthPage() {
         </div>
       </div>
 
-      {/* Footer Section */}
+      
       <footer className="py-6 px-4 md:px-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          {/* Left Side - Address */}
+         
           <div className="text-sm text-gray-800">
             <p className="font-semibold">Vigovia Tech Pvt. Ltd</p>
             <p>Registered Office: Hd-109 Cinnabar Hills,</p>
             <p>Links Business Park, Karnataka, India.</p>
           </div>
 
-          {/* Center - Contact Info */}
+        
           <div className="text-sm text-gray-800">
             <p>
               <span className="font-semibold">Phone:</span> +91-99X9999999
@@ -162,7 +162,7 @@ export default function FourthPage() {
             </p>
           </div>
 
-          {/* Right - Logo */}
+         
           <div className="w-28">
             <Image
               src="/logo.png"

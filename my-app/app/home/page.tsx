@@ -32,7 +32,7 @@ const itinerary = [
     day: 'Day 2',
     date: '28th November',
     title: 'City Tour & Adventure',
-    image: '/image1.jpg',
+    image: '/image2.jpg',//my-app/public/image2.jpg
     activities: {
       Morning: ['Breakfast at hotel. Visit Universal Studios.'],
       Afternoon: ['Explore Sentosa Island.', 'Lunch at local restaurant.'],
@@ -43,7 +43,7 @@ const itinerary = [
     day: 'Day 3',
     date: '29th November',
     title: 'Leisure & Shopping',
-    image: '/image1.jpg',
+    image: '/image3.jpg',//my-app/public/image3.jpg
     activities: {
       Morning: ['Free time or optional activities.'],
       Afternoon: ['Visit Orchard Road for shopping.'],
@@ -54,7 +54,7 @@ const itinerary = [
     day: 'Day 4',
     date: '27th November',
     title: ' Arrival In Singapore & City Exploration',
-    image: '/image1.jpg',
+    image: '/image4.jpg',//my-app/public/image4.jpg
     activities: {
       Morning: ['Arrive in Singapore. Transfer From Airport To Hotel.'],
       Afternoon: ['Check Into Your Hotel.'],
@@ -81,7 +81,7 @@ export default function Home() {
 </header>
 
 
-      {/* Hero */}
+     
       <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-xl mx-4 md:mx-16 shadow-md text-center">
         <h2 className="text-2xl font-semibold">Hi, Rahul!</h2>
         <p className="text-lg font-medium">Singapore Itinerary</p>
@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Travel Info Table */}
+    
       <div className="grid grid-cols-2 md:grid-cols-5 border rounded-xl overflow-hidden mx-4 md:mx-16 mt-6 text-sm font-medium text-center">
         {[
           ['Departure From', 'Kolkata'],
@@ -115,7 +115,7 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Itinerary Cards */}
+   
       <section className="mx-4 md:mx-16 mt-10 space-y-10">
         {itinerary.map((item, index) => (
           <div
@@ -124,12 +124,12 @@ export default function Home() {
           >
             {/* Day Pill */}
             <div className="absolute -left-6 md:-left-12 top-20">
-              <div className="bg-purple-800 text-white rotate-[-90deg] w-50 text-center py-1 rounded-full shadow text-sm font-semibold">
+              <div className="bg-purple-800 text-white rotate-[-90deg] px-10 w-50 text-center py-1 rounded-full shadow text-sm font-semibold">
                 {item.day}
               </div>
             </div>
 
-            {/* Image & Date/Title */}
+          
             <div className="w-full md:w-1/4 flex flex-col items-center">
               <div className="relative w-24 h-24">
                 <Image
@@ -145,9 +145,9 @@ export default function Home() {
 
               <div className="w-full md:w-3/4 flex items-start gap-4 mt-4">
             <div className="relative w-6 flex flex-col items-center pt-2">
-              {/* Vertical Line */}
+            
               <div className="absolute top-4 h-full w-0.5 bg-blue-600"></div>
-              {/* Timeline Points */}
+              
               {['Morning', 'Afternoon', 'Evening'].map((label, i) => (
                 <div key={i} className="flex flex-col items-center z-10 mb-12">
                   <div className="w-4 h-4 rounded-full bg-white border-2 border-blue-600"></div>
@@ -173,14 +173,14 @@ export default function Home() {
 
         <footer className=" py-6 px-4 md:px-16">
   <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-    {/* Left Side - Address */}
+   
     <div className="text-sm text-gray-800">
       <p className="font-semibold">Vigovia Tech Pvt. Ltd</p>
       <p>Registered Office: Hd-109 Cinnabar Hills,</p>
       <p>Links Business Park, Karnataka, India.</p>
     </div>
 
-    {/* Center - Contact Info */}
+    
     <div className="text-sm text-gray-800">
       <p>
         <span className="font-semibold">Phone:</span> +91-99X9999999
@@ -190,7 +190,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Right - Logo */}
+   
     <div className="w-28">
       <Image
         src="/logo.png"

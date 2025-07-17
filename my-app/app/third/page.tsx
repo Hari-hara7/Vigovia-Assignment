@@ -107,14 +107,14 @@ export default function ThirdPage() {
     <div className="min-h-screen bg-white p-6 font-sans">
       <div className="max-w-4xl mx-auto space-y-8">
         
-        {/* Activity Table Section */}
+      
         <div className="bg-white">
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Activity <span className="text-purple-600">Table</span>
           </h2>
           
           <div className="flex gap-4">
-            {/* City Column */}
+         
             <div className="w-1/5 bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <div className="bg-[#331F63] text-white px-4 py-3 font-medium text-sm text-center rounded-t-3xl">
                 City
@@ -126,7 +126,7 @@ export default function ThirdPage() {
               ))}
             </div>
 
-            {/* Activity Column */}
+           
             <div className="w-2/5 bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <div className="bg-[#331F63] text-white text-center px-4 py-3 font-medium text-sm rounded-t-3xl">
                 Activity
@@ -138,7 +138,7 @@ export default function ThirdPage() {
               ))}
             </div>
 
-            {/* Type Column */}
+            
             <div className="w-1/5 bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <div className="bg-[#331F63] text-white px-4 py-3 font-medium text-sm text-center rounded-t-3xl">
                 Type
@@ -150,7 +150,7 @@ export default function ThirdPage() {
               ))}
             </div>
 
-            {/* Time Required Column */}
+           
             <div className="w-1/5 bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
               <div className="bg-[#331F63] text-white px-4 py-3 font-medium text-sm text-center rounded-t-3xl">
                 Time Required
@@ -168,7 +168,7 @@ export default function ThirdPage() {
           </div>
         </div>
 
-        {/* Terms and Conditions Section */}
+     
         <div className="bg-white">
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Terms and <span className="text-purple-600">Conditions</span>
@@ -182,7 +182,7 @@ export default function ThirdPage() {
         </div>
       </div>
 
-      {/* Footer */}
+    
       <footer className="py-6 px-4 md:px-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Left Side - Address */}
@@ -192,7 +192,7 @@ export default function ThirdPage() {
             <p>Links Business Park, Karnataka, India.</p>
           </div>
 
-          {/* Center - Contact Info */}
+        
           <div className="text-sm text-gray-800">
             <p>
               <span className="font-semibold">Phone:</span> +91-99X9999999
@@ -202,7 +202,7 @@ export default function ThirdPage() {
             </p>
           </div>
 
-          {/* Right - Logo */}
+          
           <div className="w-28">
             <Image
               src="/logo.png"

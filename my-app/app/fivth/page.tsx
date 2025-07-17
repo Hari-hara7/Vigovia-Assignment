@@ -7,8 +7,8 @@ import Image from 'next/image';
 
 export default function FooterPage() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Top Navigation Bars - Light Blue/Gray */}
+    <div className="min-h-screen bg-white mb-70">
+    
       <div className="bg-gray-100 text-gray-600 text-xs py-2 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-8 text-center">
@@ -39,12 +39,12 @@ export default function FooterPage() {
         </div>
       </div>
 
-      {/* Main Footer Content - Light Purple Background */}
+     
       <div className="bg-purple-50 py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
             
-            {/* Our offerings */}
+         
             <div>
               <h3 className="font-semibold text-gray-800 mb-4 text-sm">Our offerings</h3>
               <ul className="space-y-2 text-xs text-blue-600">
@@ -56,7 +56,7 @@ export default function FooterPage() {
               </ul>
             </div>
 
-            {/* Popular destinations */}
+        
             <div>
               <h3 className="font-semibold text-gray-800 mb-4 text-sm">Popular destinations</h3>
               <ul className="space-y-2 text-xs text-blue-600">
@@ -68,7 +68,7 @@ export default function FooterPage() {
               </ul>
             </div>
 
-            {/* Vigovia Specials */}
+           
             <div>
               <h3 className="font-semibold text-gray-800 mb-4 text-sm">Vigovia Specials</h3>
               <ul className="space-y-2 text-xs text-blue-600">
@@ -79,7 +79,7 @@ export default function FooterPage() {
               </ul>
             </div>
 
-            {/* Company */}
+           
             <div>
               <h3 className="font-semibold text-gray-800 mb-4 text-sm">Company</h3>
               <ul className="space-y-2 text-xs text-blue-600">
@@ -91,7 +91,7 @@ export default function FooterPage() {
               </ul>
             </div>
 
-            {/* More */}
+         
             <div>
               <h3 className="font-semibold text-gray-800 mb-4 text-sm">More</h3>
               <ul className="space-y-2 text-xs text-blue-600">
@@ -102,7 +102,7 @@ export default function FooterPage() {
               </ul>
             </div>
 
-            {/* Contact Info */}
+        
             <div className="text-right">
               <div className="bg-purple-800 text-white p-4 rounded-lg mb-4 inline-block">
                 <p className="text-xs mb-1">Need help? Call us</p>
@@ -125,12 +125,12 @@ export default function FooterPage() {
         </div>
       </div>
 
-      {/* Bottom Section with Logo, Payments, and Social */}
+   
       <div className="bg-white py-8 border-t border-gray-200 align-center">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             
-            {/* Logo */}
+            
            <div className="mb-6 md:mb-0 flex flex-col items-start">
      <Image
         src="/logo.png" 
@@ -143,7 +143,7 @@ export default function FooterPage() {
   
 </div>
 
-        {/* Payment Methods */}
+       
 <div className="flex flex-col items-center justify-center text-center">
   <h4 className="font-semibold text-gray-800 mb-3 text-sm">Payments</h4>
   <div className="flex gap-3 justify-center">
@@ -160,13 +160,13 @@ export default function FooterPage() {
         </div>
       </div>
 
-      {/* Copyright Footer - Dark Purple */}
+ 
       <div className="bg-[#321e5d] text-white py-4">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between text-xs">
             <p>© 2025 Vigovia Travel Technologies (P) Ltd. All rights reserved.</p>
 
-               {/* Social Media Icons */}
+           
               <div className="flex gap-3 ml-6">
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-gray-100 cursor-pointer transition-colors">
                   <FaFacebookF size={14} className="text-black" />
@@ -183,7 +183,7 @@ export default function FooterPage() {
               </div>
             
             <div className="flex items-center gap-6 mt-2 md:mt-0">
-              {/* Legal Links */}
+              
               <div className="flex gap-6">
                 <a href="#" className="hover:underline cursor-pointer">Privacy policy</a>
                 <a href="#" className="hover:underline cursor-pointer">Legal notice</a>

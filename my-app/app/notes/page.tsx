@@ -77,12 +77,12 @@ export default function ImportantNotes() {
 
   return (
     <section className="px-4 md:px-20 py-12 font-sans bg-white">
-      {/* Notes Section */}
+     
       <h2 className="text-black text-xl font-semibold mb-6 text-left px-25">
         Important <span className="text-purple-600">Notes</span>
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-center gap-6">
+      <div className="flex flex-col md:flex-row justify-center gap-3">
         <table className="w-full md:w-[25%] border-collapse rounded-2xl overflow-hidden shadow-md">
           <thead>
             <tr className="bg-[#331F63] text-white text-center">
@@ -114,13 +114,13 @@ export default function ImportantNotes() {
         </table>
       </div>
 
-      {/* Scope of Service */}
+    
       <div className="mt-16">
         <h2 className="text-xl text-black font-semibold mb-6 text-left px-25">
           Scope Of <span className="text-purple-600">Service</span>
         </h2>
 
-        <div className="flex flex-col md:flex-row justify-center gap-6">
+        <div className="flex flex-col md:flex-row justify-center gap-3">
           <table className="w-full md:w-[25%] border-collapse rounded-2xl overflow-hidden shadow-md">
             <thead>
               <tr className="bg-[#331F63] text-white text-center">
@@ -153,13 +153,13 @@ export default function ImportantNotes() {
         </div>
       </div>
 
-      {/* Inclusion Summary */}
+  
       <div className="mt-16">
         <h2 className="text-xl text-black font-semibold mb-6 text-left px-25">
           Inclusion <span className="text-purple-600">Summary</span>
         </h2>
 
-        <div className="flex flex-col md:flex-row justify-center gap-6">
+        <div className="flex flex-col md:flex-row justify-center gap-3">
           <table className="w-full md:w-[20%] border-collapse rounded-2xl overflow-hidden shadow-md">
             <thead>
               <tr className="bg-[#331F63] text-white text-center">
@@ -231,41 +231,41 @@ export default function ImportantNotes() {
           </table>
         </div>
 
-         {/* Footer Section */}
-      
+       
+       <footer className=" py-6 px-4 md:px-16">
+       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+         {/* Left Side - Address */}
+         <div className="text-sm text-gray-800">
+           <p className="font-semibold">Vigovia Tech Pvt. Ltd</p>
+           <p>Registered Office: Hd-109 Cinnabar Hills,</p>
+           <p>Links Business Park, Karnataka, India.</p>
+         </div>
+     
+       
+         <div className="text-sm text-gray-800">
+           <p>
+             <span className="font-semibold">Phone:</span> +91-99X9999999
+           </p>
+           <p>
+             <span className="font-semibold">Email ID:</span> Contact@Vigovia.Com
+           </p>
+         </div>
+     
+         
+         <div className="w-28">
+           <Image
+             src="/logo.png"
+             alt="Vigovia Logo"
+             width={150}
+             height={120}
+             className="object-contain"
+           />
+         </div>
+       </div>
+     </footer>
       </div>
 
-        <footer className="border-t py-6 px-4 md:px-16 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            {/* Left Side - Address */}
-            <div className="text-sm text-gray-800">
-              <p className="font-semibold">Vigovia Tech Pvt. Ltd</p>
-              <p>Registered Office: Hd-109 Cinnabar Hills,</p>
-              <p>Links Business Park, Karnataka, India.</p>
-            </div>
-        
-            {/* Center - Contact Info */}
-            <div className="text-sm text-gray-800">
-              <p>
-                <span className="font-semibold">Phone:</span> +91-99X9999999
-              </p>
-              <p>
-                <span className="font-semibold">Email ID:</span> Contact@Vigovia.Com
-              </p>
-            </div>
-        
-            {/* Right - Logo */}
-            <div className="w-28">
-              <Image
-                src="/logo.png"
-                alt="Vigovia Logo"
-                width={150}
-                height={120}
-                className="object-contain"
-              />
-            </div>
-          </div>
-        </footer>
+    
     </section>
     
   );

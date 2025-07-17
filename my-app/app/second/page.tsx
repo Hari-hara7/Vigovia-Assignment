@@ -68,7 +68,7 @@ export default function SecondPage() {
   return (
     <div className="min-h-screen bg-white p-6 font-sans">
       <div className="max-w-4xl mx-auto space-y-8">
-        {/* Flight Summary */}
+        
         <div>
           <h2 className="text-lg font-semibold text-gray-800 mb-4">
             Flight <span className="text-purple-600">Summary</span>
@@ -107,13 +107,12 @@ export default function SecondPage() {
           </p>
         </div>
 
-        {/* Hotel Bookings */}
         <div>
           <h2 className="text-xl text-black font-semibold mb-6 text-left">
             Hotel <span className="text-purple-600">Bookings</span>
           </h2>
 
-          <div className="flex flex-col md:flex-row justify-between gap-6">
+          <div className="flex flex-col md:flex-row justify-between gap-3">
             {/* City */}
             <table className="w-full md:w-[15%] border-collapse rounded-2xl overflow-hidden shadow-md">
               <thead>
@@ -135,7 +134,7 @@ export default function SecondPage() {
               </tbody>
             </table>
 
-            {/* Check In */}
+           
             <table className="w-full md:w-[18%] border-collapse rounded-2xl overflow-hidden shadow-md">
               <thead>
                 <tr className="bg-[#331F63] text-white text-center">
@@ -151,7 +150,7 @@ export default function SecondPage() {
               </tbody>
             </table>
 
-            {/* Check Out */}
+           
             <table className="w-full md:w-[18%] border-collapse rounded-2xl overflow-hidden shadow-md">
               <thead>
                 <tr className="bg-[#331F63] text-white text-center">
@@ -167,7 +166,7 @@ export default function SecondPage() {
               </tbody>
             </table>
 
-            {/* Nights */}
+           
             <table className="w-full md:w-[10%] border-collapse rounded-2xl overflow-hidden shadow-md">
               <thead>
                 <tr className="bg-[#331F63] text-white text-center">
@@ -183,7 +182,7 @@ export default function SecondPage() {
               </tbody>
             </table>
 
-            {/* Hotel Name */}
+           
             <table className="w-full md:w-[39%] border-collapse rounded-2xl overflow-hidden shadow-md">
               <thead>
                 <tr className="bg-[#331F63] text-white text-center">
@@ -214,7 +213,7 @@ export default function SecondPage() {
         </div>
       </div>
 
-      {/* Footer */}
+      
       <footer className="border-t py-6 px-4 md:px-16 mt-8">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="text-sm text-gray-800">

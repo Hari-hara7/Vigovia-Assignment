@@ -12,8 +12,8 @@ export default function MainPage() {
     <main>
       <Home />
       <Second/>
-      <Third />
       <Notes />
+       <Third />
       <Fourth />
       <Fivth />
     </main>

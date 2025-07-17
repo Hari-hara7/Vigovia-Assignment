@@ -54,7 +54,7 @@ const itinerary = [
     day: 'Day 4',
     date: '27th November',
     title: ' Arrival In Singapore & City Exploration',
-    image: '/image4.jpg',//my-app/public/image4.jpg
+    image: '/image4.jpg',//my-app/public/image4.jpgx
     activities: {
       Morning: ['Arrive in Singapore. Transfer From Airport To Hotel.'],
       Afternoon: ['Check Into Your Hotel.'],

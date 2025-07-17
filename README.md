@@ -1,6 +1,6 @@
 # 🎨 Vigovia Travel - UI/UX + Frontend Internship Task
 
-> ✅ **This project is a direct implementation of the official Figma design provided for the Vigovia Internship (UI/UX + Fullstack Round 2).**
+> ✅ **This project is a direct implementation of the official Figma design provided for the Vigovia Internship (UI/UX + Frontend Round 2).**
 
 ## 🔗 Figma Design Link  
 [👉 View Figma Design](https://www.figma.com/design/Nut2Vgxzc8HaD2pCiisWED/Round-2---Fullstack--UIUX----Task-Phase?m=auto&t=aKxRZSztHfYzCGLa-6)

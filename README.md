@@ -41,7 +41,7 @@ This is a **Travel Itinerary UI** assignment for Vigovia. It includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/vigovia-travel.git
+git clone https://github.com/Hari-hara7/Vigovia-Assignment.git
 cd vigovia-travel
 
 # Install dependencies

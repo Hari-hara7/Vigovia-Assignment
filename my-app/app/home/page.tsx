@@ -123,8 +123,8 @@ export default function Home() {
             className="relative flex flex-col md:flex-row gap-6 border-b pb-6"
           >
             {/* Day Pill */}
-            <div className="absolute -left-6 md:-left-12 top-20">
-              <div className="bg-purple-800 text-white rotate-[-90deg] px-10 w-50 text-center py-1 rounded-full shadow text-sm font-semibold">
+            <div className="absolute -left-6 md:-left-12 top-15">
+              <div className="bg-[#321E5D] text-white rotate-[-90deg] px-10 w-40 text-center py-1 rounded-full shadow text-sm font-semibold">
                 {item.day}
               </div>
             </div>

@@ -129,7 +129,7 @@ export default function FourthPage() {
             </div>
           </div>
         </div>
-
+<div className="border-t border-blsck my-10 w-full" />
         {/* CTA */}
         <div className="text-center py-8 mb-100">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">
